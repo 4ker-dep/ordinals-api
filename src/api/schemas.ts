@@ -193,7 +193,7 @@ export const OffsetParam = Type.Integer({
 
 export const LimitParam = Type.Integer({
   minimum: 1,
-  maximum: 60,
+  maximum: 1000,
   title: 'Limit',
   description: 'Results per page',
 });
